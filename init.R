@@ -3,7 +3,9 @@
 # Example R code to install packages if not already installed
 #
 
-my_packages = c("modeldata", "plotly", "shinydashboard", "data.table","shinyWidgets")
+my_packages = c("modeldata", "plotly", "shinydashboard", "shinyWidgets", "maps",
+                "dplyr", "readr", "tidyr", "ggplot2", "cowplot", "tidyverse",
+                "recipes")
 
 install_if_missing = function(p) {
   if (p %in% rownames(installed.packages()) == FALSE) {

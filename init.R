@@ -5,7 +5,7 @@
 
 my_packages = c("modeldata", "plotly", "shinydashboard", "shinyWidgets", "maps",
                 "dplyr", "readr", "tidyr", "ggplot2", "cowplot", "tidyverse",
-                "recipes")
+                "recipes", "shinythemes", "data.table", "modeldata", "moderndive")
 
 install_if_missing = function(p) {
   if (p %in% rownames(installed.packages()) == FALSE) {
